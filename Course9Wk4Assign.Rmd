@@ -1,0 +1,35 @@
+---
+title: "Course 9 Week 4 Assignment"
+author: "Ted Wang"
+date: '2018-07-17'
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+## Executive Summary
+
+The data set, mtcars, was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).  
+  
+This presentation contains a Shiny App that let's you 1) select any set of data points on a graph and 2) fit a linear regression model on those data points.
+
+## Data Set mtcars
+
+Here is a summary of mtcars.  In the next slide, we will look at the relationship between Horsepower and Miles Per Gallon.
+
+```{r,echo=FALSE,message=FALSE}
+str(mtcars)
+```
+
+## Shiny App
+
+RPubs only supports static webpage. 
+[Click to go to my Shiny App hosted on shinyapps.io](https://tedtkwang.shinyapps.io/shiny_interactive_fitline/)
+
+```{r,echo=FALSE,message=FALSE}
+```
+
+## Thank you
+
+```{r}
+
+```
